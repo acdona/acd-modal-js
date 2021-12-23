@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate&display=swap');
+
+body{
+  font-family: 'Syncopate', sans-serif;
+  font-size: 16px;
+  background: #fafafa;
+}
+
+p {
+    text-align: justify; 
+    padding: 50px;
+}
+
+.content {
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    max-width: 900px;
+}
+
+.btn {
+    position: absolute;
+    top: 10px;
+}
+.modal {
+    display: none;
+}
+
+.btn2 {
+  position: relative;
+
+}
+.btn, .btn2 {
+    background-color: rgb(8, 94, 37);
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: white;
+}
+
+.modal-head , .modal-footer{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    background-color: #666;
+}
